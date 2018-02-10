@@ -3,3 +3,5 @@ Website development project, created as a part of the B.S. program at San Franci
 The project was created in a team of 6 students, using Git and Github to work remotely the majority of the semester and I used Netbeans together with the CodeIgniter framework to commit my files to the project. 
 
 Technologies and methods used: SSH, BASH, PHP, HTML, CSS, JavaScript & JQuery, SQL, MySQL Workbench, MVC, SCRUM, Team of 6, Git & Github, LAMP stack, AWS
+
+Short video demonstration: https://youtu.be/hGNtEvhVRZE
