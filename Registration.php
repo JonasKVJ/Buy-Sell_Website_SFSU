@@ -1,12 +1,5 @@
 <?php
 
-/**
- * Created by PhpStorm.
- * User: Nick_2
- * Date: 4/10/2017
- * Time: 7:30 PM
- */
-
 class Registration extends CI_Controller {
 
     public function __construct()
