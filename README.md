@@ -11,4 +11,5 @@ The project was created in a team of 6 students, using Git and Github to work re
 - Verify that any new users are added to the database, and that new users can only sign up according to a validated input format
 
 
-Technologies and skills used:  Bootstrap, PHP, HTML5, CSS, JavaScript & JQuery, SQL, MySQL Workbench, MVC, SCRUM, collaboration, Git & Github, LAMP, AWS, CodeIgniter, Netbeans, simple Terminal commands, SSH
+## Technologies and skills ##  
+Bootstrap, PHP, HTML5, CSS, JavaScript & JQuery, SQL, MySQL Workbench, MVC, SCRUM, collaboration, Git & Github, LAMP, AWS, CodeIgniter, Netbeans, simple Terminal commands, SSH
