@@ -5,10 +5,12 @@ Website development project, created as a part of the B.S. Computer Science prog
 The project was created in a team of 6 students, using Git and Github to work remotely the majority of the semester and I used Netbeans together with the CodeIgniter framework to commit files to the project. 
 
 
+
 ## Main responsibility ##
 
 - Create a functional Registration form, which integrates with the MySQL database, using the MVC design pattern
 - Verify that any new users are added to the database, and that new users can only sign up according to a validated input format
+
 
 
 ## Technologies and skills ##  
