@@ -6,7 +6,7 @@ This project is not currently live, since it had to be taken down due to securit
 
 
 
-## Main responsibility ##
+## Main responsibilities ##
 
 - Create a functional Registration form, which integrates with the MySQL database, using the MVC design pattern
 - Verify that any new users are added to the database, and that new users can only sign up according to a validated input format
