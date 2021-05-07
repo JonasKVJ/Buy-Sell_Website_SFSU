@@ -8,12 +8,12 @@ The website is not currently live, since it had to be taken down due to security
 
 
 
-## Main responsibilities ##
+## Main Responsibilities ##
 
 - Create a functional Registration form, which integrates with the MySQL database, using the MVC design pattern
 - Verify that any new users are added to the database, and that new users can only sign up according to a validated input format
 
 
 
-## Technologies and skills ##  
-Bootstrap, PHP, HTML5, CSS, JavaScript & JQuery, SQL, MySQL Workbench, MVC, SCRUM, collaboration, Git & Github, LAMP, AWS, CodeIgniter, Netbeans, simple Terminal commands, SSH
+## Technologies and Skills ##  
+Bootstrap, PHP, HTML5, CSS, JavaScript & JQuery, SQL, MySQL Workbench, MVC, SCRUM, Collaboration, Git & Github, LAMP, AWS, CodeIgniter, Netbeans, Terminal, SSH
