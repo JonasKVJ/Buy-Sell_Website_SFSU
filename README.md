@@ -1,4 +1,4 @@
-# Buy-Sell_Website_SFSU
+# E-commerce Website at SFSU
 Website development project, created as a part of the B.S. Computer Science program at San Francisco State University. The purpose of the project was to design a website intended for SFSU students to post items for sale, while giving other SFSU students the ability to purchase them. 
 
 The files displayed in this repository are for showcasing purposes, and therefore only encompass a very small part of the complete project. 
