@@ -16,4 +16,4 @@ The website is not currently live, since it had to be taken down due to security
 
 
 ## Technologies and Skills ##  
-Bootstrap, PHP, HTML5, CSS, JavaScript & JQuery, SQL, MySQL Workbench, MVC, SCRUM, Collaboration, Git & Github, LAMP, AWS, CodeIgniter, Netbeans, Terminal, SSH
+Bootstrap, PHP, HTML5, CSS, JavaScript, JQuery, SQL, MySQL Workbench, MVC, SCRUM, Collaboration, Git & Github, LAMP, AWS, CodeIgniter, Netbeans, Terminal, SSH
