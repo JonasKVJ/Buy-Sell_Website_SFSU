@@ -1,6 +1,10 @@
 <?php
 
-//Note on Security (to be deleted): In index.php, define('ENVIRONMENT', isset($_SERVER['CI_ENV']) ? $_SERVER['CI_ENV'] : 'development');
+//To recruiters: The security note would normally be deleted after changing the development environment to production, but is now left
+//here for documentation purposes, because the project took place in a school environment.
+//Anything in this file that has to do with form validation and form security was solely my responsibility. 
+
+//Note on Security: In index.php, define('ENVIRONMENT', isset($_SERVER['CI_ENV']) ? $_SERVER['CI_ENV'] : 'development');
 //needs to be changed to 'production' once SFSU Marketplace is ready for release.
 //This will prevent harmful information from being printed through PHP's native error message
 //system. 
@@ -13,6 +17,7 @@
 
 class Registration extends CI_Controller {
 
+    //This constructor Was managed by a separate team member
     public function __construct() {
         parent::__construct();
         /**
@@ -25,7 +30,8 @@ class Registration extends CI_Controller {
         $this->load->model('Login_model');
     }
     
-    //Needs to be called before outputting any data to avoid executing XSS scripts
+    //My responsibility: form security and form validation.
+    //This function needs to be called before outputting any data to avoid executing XSS scripts.
     public function validate_input($data) {
         $data = htmlspecialchars($data);
         $data = stripslashes($data);
@@ -59,6 +65,8 @@ class Registration extends CI_Controller {
                 )
         );
 
+        //This is the CodeIgniter syntax for setting form validation rules for the different form fields. This works because Registration
+        //extends CI_Controller. This effectively makes this file the controller of the registration form. 
         $this->form_validation->set_rules('firstname', 'First Name', 'required|trim');
         $this->form_validation->set_rules('lastname', 'Last Name', 'required|trim');
         $this->form_validation->set_rules('password', 'Password', 'required|trim|min_length[8]');
