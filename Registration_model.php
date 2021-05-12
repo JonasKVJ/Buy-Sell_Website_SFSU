@@ -1,5 +1,6 @@
 <?php
 
+//This is the model, which inserts data received from the controller (Registration.php) into the database and manages database logic
 class Registration_model extends CI_Model{
     
     public function __construct() {
