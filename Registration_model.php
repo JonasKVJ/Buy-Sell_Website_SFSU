@@ -6,6 +6,8 @@ class Registration_model extends CI_Model{
         $this->load->database();
     }
     
+    //Here, we are escaping the data before inserting it into the database. CodeIgniter recommends doing this for security.
+    //The reason why it should work is because the data is going to be translated to a SQL string, which could be dangerous. 
     public function db_submit($data){
         //var_dump($data["firstname"]); Debugging
         //Password is not escaped, since it is not a string and should not be modified
