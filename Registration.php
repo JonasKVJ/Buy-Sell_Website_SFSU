@@ -16,7 +16,7 @@
 //cross-site request forgery. 
 class Registration extends CI_Controller {
 
-    //This constructor Was managed by a separate team member
+    //This constructor was managed by a separate team member
     public function __construct() {
         parent::__construct();
         /**
