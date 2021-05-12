@@ -1,4 +1,8 @@
 <html>
+<!--This is the view file of the MVC pattern. It presents a registration form to the user, which has fields that allows the user
+to input their personal data. The data is then validated by the controller, Registration.php, and inserted into the database by
+the model, Registration_model.php.-->
+
     <style>
         body{
             color: black;
@@ -121,10 +125,8 @@
                 <div class="form-group row">
                     <a href="<?php echo base_url() ?>index.php/home" class="btn btn-danger" type="button" id="Cancel" >Cancel</a></button>
 
-                    <!--<a href="<?php echo base_url() ?>index.php/registration/getInput" type="submit" id= "submit" class="btn btn-primary" style="float: right;">Create Account</a>-->
                     <button style="float: right;" type="submit" id="submit" class="btn btn-primary">Create Account</button>
                 </div>
-                <!--<input style="float: right;" type="submit" name="submit" value="Test"/>-->
             </form>
             <?php
             echo form_close();
