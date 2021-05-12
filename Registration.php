@@ -14,7 +14,6 @@
 //htmlspecialchars() is automatically called as an intermediate function of set_value in registration_view. 
 //$config['csrf_protection'] = TRUE; needs to be set in the config to protect against
 //cross-site request forgery. 
-
 class Registration extends CI_Controller {
 
     //This constructor Was managed by a separate team member
