@@ -1,3 +1,5 @@
+**Warning: this project contains low quality code!**
+
 # E-commerce Website at SFSU
 Website development project, created as a part of the B.S. Computer Science program at San Francisco State University. The purpose of the project was to design a website intended for SFSU students to post items for sale, while giving other SFSU students the ability to purchase them. 
 
